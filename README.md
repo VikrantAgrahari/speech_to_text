@@ -1,7 +1,7 @@
 # speech_to_text
 Speech To Text Recognition
 
-In this project, I'm converting voice into text using Google's Speech_Recognition engine. I'd made a simple method, upload file and convert. The feautre included is 'adjust_ambient_noise' feature which is not enough for removing noise.
+In this project, I'm converting voice into text using Google's Speech_Recognition engine. I'd made a simple method, upload file and convert. The feature included is 'adjust_ambient_noise' feature which is not enough for removing noise.
 
 The features wish to include in this project is that the website 
 
