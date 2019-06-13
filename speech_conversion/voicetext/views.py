@@ -65,17 +65,3 @@ def to_text(request,file):
     data.append(dataum)
     print(mic_text)
     return render(request, 'voicetext/upload.html',{'data':data})
-
-def plot_it(file):
-    voice= wave.open(file,'r')
-    signal = voice.readframes(-1)
-    signal = np.fromstring(signal, 'Int16')
-
-    # If Stereo
-    if voice.getnchannels() == 2:
-        print('Mono Files')
-    plt.figure(1)
-    plt.title('Signal Wave...')
-    plt.plot(signal)
-    plt.show()
-
