@@ -1,0 +1,10 @@
+👍
+-------
+👍🏻 Recognition Engine is working well
+
+
+
+👎
+-------
+👎🏻 Couldn't able to remove noise perfectly 
+👎🏻 Audio Player is not playing, It's saying couldn't find the audio path
