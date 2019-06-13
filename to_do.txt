@@ -1,0 +1,4 @@
+This is To Do list for Speech Recognition. I'm trying to put this feature. It will be very helpful for me if you be my helping hand...
+
+-Convert uploaded audio file to .wav format (from mp3 or m4a)
+-Reduce Noise from audio files

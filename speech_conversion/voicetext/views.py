@@ -24,6 +24,7 @@ def upload(request):
         fs = FileSystemStorage()
         name=file.name #Got file name
 
+        print('Saved!')
         # Splitting Function
         spl= name.split('.')
         if(spl[1]=='wav'):
@@ -37,12 +38,17 @@ def upload(request):
             else:
                 we=str(size)+" KB"
             with har as source:
-                r.adjust_for_ambient_noise(source)
+                r.adjust_for_ambient_noise(source, duration=0.5)
                 audio = r.record(source)
-
-            mic_text = r.recognize_google(audio)
+            try:
+                mic_text = r.recognize_google(audio, language='en-US')
+            except sr.UnknownValueError:
+                mic_text="I couldn't undestand. It's too much noise :( "
+            except sr.RequestError:
+                mic_text="Sorry, Service is not Avaiable right now!"
+            fs.save(file.name,file)
             data = []
-            dataum = {'mic': mic_text,'name':name, 'size':we}
+            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name}
             data.append(dataum)
             return render(request, 'voicetext/upload.html', {'data': data})
         else:
