@@ -4,7 +4,8 @@
             <h3 class="cover-heading ">Convert Audio into Text file</h3>
             <p class="lead text-center">
                 This site is developed using Python, Django, Speech Recognition Engine to detect Voice from Audio file and convert
-                it to Text.<br> If you recorded someone's voice or your lecturer notes and you want to convert it to Text for your future work, you can easily convert here. <br>
+                it to Text.<br> If you recorded someone's voice or your lecturer notes and you want to convert it to Text for your future work, you can easily convert here.
+                <br><h4 class="fa-bold">Currently it supports only .wav format of audio file.</h4>
             </p><br><br>
 
             <form class="form-signin" method="POST" enctype="multipart/form-data" action="{% url 'voicetext:upload' %}">
