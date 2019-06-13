@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 import wave
+import simpleaudio as sa
 
 # Create your views here.
 r= sr.Recognizer()
@@ -30,12 +31,18 @@ def upload(request):
             #plot_it(file)
             name= file.name
             size =round(((file.size)/1000),2)
+            if size>1024:
+                size=round((size/1000),2)
+                we=str(size)+" MB"
+            else:
+                we=str(size)+" KB"
             with har as source:
                 r.adjust_for_ambient_noise(source)
                 audio = r.record(source)
+
             mic_text = r.recognize_google(audio)
             data = []
-            dataum = {'mic': mic_text,'name':name, 'size':size}
+            dataum = {'mic': mic_text,'name':name, 'size':we}
             data.append(dataum)
             return render(request, 'voicetext/upload.html', {'data': data})
         else:
