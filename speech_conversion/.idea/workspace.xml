@@ -16,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/speech_conversion/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="824">
@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voicetext/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="150">
               <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
@@ -61,11 +61,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+              <folding>
+                <element signature="e#230#236#0#HTML" expanded="true" />
+                <element signature="e#381#387#0#HTML" expanded="true" />
+                <element signature="e#581#587#0#HTML" expanded="true" />
+                <element signature="e#594#600#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="50" column="82" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
+            <state relative-caret-position="840">
+              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -153,6 +159,13 @@
               <item name="speech_conversion" type="462c0819:PsiDirectoryNode" />
               <item name="voicetext" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="speech_conversion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="speech_conversion" type="462c0819:PsiDirectoryNode" />
+              <item name="voicetext" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="speech_conversion" type="b2602c69:ProjectViewProjectNode" />
@@ -262,12 +275,12 @@
       <workItem from="1560065539603" duration="7164000" />
       <workItem from="1560231300885" duration="5283000" />
       <workItem from="1560311654893" duration="7476000" />
-      <workItem from="1560403838573" duration="5971000" />
+      <workItem from="1560403838573" duration="6812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25894000" />
+    <option name="totallyTimeSpent" value="26735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -321,9 +334,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <element signature="e#230#236#0#HTML" expanded="true" />
+            <element signature="e#381#387#0#HTML" expanded="true" />
+            <element signature="e#581#587#0#HTML" expanded="true" />
+            <element signature="e#594#600#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voicetext/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/voicetext/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="150">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
@@ -338,37 +388,6 @@
           <folding>
             <element signature="e#316#325#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="50" column="82" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voicetext/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
