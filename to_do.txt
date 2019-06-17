@@ -2,3 +2,4 @@ This is To Do list for Speech Recognition. I'm trying to put this feature. It wi
 
 -Convert uploaded audio file to .wav format (from mp3 or m4a)
 -Reduce Noise from audio files
+-User can download output in txt or doc format
