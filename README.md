@@ -7,6 +7,8 @@ The features wish to include in this project is that the website
 
 1.  Can convert file format from popular formats to ".wav" which is one Speech_Recognition engine supports
 2.  Able to remove the noise level depending on the uploaded audio.
+3.  User can download output in txt or doc format
+4.  Make option of recording of audio (User can upload or record audio)
 
 *I'm a new face to this field, so need helping hands. You can put other features if you want to. I love learning from you 😊*
 
