@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55d32e10-c241-4cf6-acf6-88fd2763952f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voicetext/templates/voicetext/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/voicetext/templates/voicetext/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voicetext/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voicetext/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/voicetext/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
+            <state relative-caret-position="435">
+              <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -258,12 +257,12 @@
       <workItem from="1560485901201" duration="24000" />
       <workItem from="1560856825200" duration="3083000" />
       <workItem from="1560961783886" duration="729000" />
-      <workItem from="1561363527818" duration="2875000" />
+      <workItem from="1561363527818" duration="3051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34177000" />
+    <option name="totallyTimeSpent" value="34353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -363,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voicetext/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
+        <state relative-caret-position="435">
+          <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
