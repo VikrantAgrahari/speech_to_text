@@ -11,6 +11,8 @@ import numpy as np
 import sys
 import wave
 import simpleaudio as sa
+from reportlab.pdfgen import canvas
+import docx
 
 # Create your views here.
 r= sr.Recognizer()
@@ -23,7 +25,6 @@ def upload(request):
         file= request.FILES['audio']
         fs = FileSystemStorage()
         name=file.name #Got file name
-
         print('Saved!')
         # Splitting Function
         spl= name.split('.')
@@ -46,11 +47,12 @@ def upload(request):
                 mic_text="I couldn't undestand. It's too much noise :( "
             except sr.RequestError:
                 mic_text="Sorry, Service is not Avaiable right now!"
-            fs.save(file.name,file)
+            #fs.save(file.name,file)
+            doc=to_doc(mic_text)
             data = []
-            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name}
+            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name, 'doc':doc.name}
             data.append(dataum)
-            return render(request, 'voicetext/upload.html', {'data': data})
+            return render(request, 'voicetext/upload.html', {'data': data} )
         else:
             messages.error(request, ('The uploaded file format is not supported!'))
             return render(request, 'voicetext/index.html', {})
@@ -78,3 +80,9 @@ def to_text(request,file):
     data.append(dataum)
     print(mic_text)
     return render(request, 'voicetext/upload.html',{'data':data})
+
+def to_doc(text):
+    doc=docx.Document()
+    doc.add_paragraph(text)
+    doc.save('voicetext/static/tmp.docx')
+    return doc
