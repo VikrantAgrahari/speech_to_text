@@ -13,6 +13,7 @@ import wave
 import simpleaudio as sa
 from reportlab.pdfgen import canvas
 import docx
+import os
 
 # Create your views here.
 r= sr.Recognizer()
@@ -50,7 +51,7 @@ def upload(request):
             #fs.save(file.name,file)
             doc=to_doc(mic_text)
             data = []
-            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name, 'doc':doc.name}
+            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name, 'doc':doc}
             data.append(dataum)
             return render(request, 'voicetext/upload.html', {'data': data} )
         else:
@@ -83,6 +84,7 @@ def to_text(request,file):
 
 def to_doc(text):
     doc=docx.Document()
+    os.remove('voicetext/static/tmp.docx')
     doc.add_paragraph(text)
     doc.save('voicetext/static/tmp.docx')
     return doc
