@@ -11,6 +11,7 @@ kiwisolver==1.0.1
 lxml==4.3.4
 Pillow==6.0.0
 pycparser==2.19
+pydub==0.23.1
 PyMySQL==0.9.3
 pyparsing==2.2.0
 pytz==2019.1
