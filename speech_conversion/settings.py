@@ -27,7 +27,7 @@ SECRET_KEY = '-%j5*i7zear1zc70co4_i-gy72e1mb%nxe8mx!!k-151*ff%8e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['speechengine.herokuapp.com']
 
 
 # Application definition
