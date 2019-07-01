@@ -1,3 +1,4 @@
+Python==3.7
 django==2.1
 pymysql==0.9.3
 speechrecognition==3.6.3
