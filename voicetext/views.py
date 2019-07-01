@@ -3,16 +3,16 @@ from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse, JsonResponse
 from django.contrib import  messages
 from os import path
-from pydub import AudioSegment
+#from pydub import AudioSegment
 import time
 import speech_recognition as sr
-import matplotlib.pyplot as plt
-import numpy as np
+#import matplotlib.pyplot as plt
+#import numpy as np
 import sys
-import wave
+#import wave
 import simpleaudio as sa
 from reportlab.pdfgen import canvas
-import docx
+#import docx
 import os
 
 # Create your views here.
@@ -82,9 +82,12 @@ def to_text(request,file):
     print(mic_text)
     return render(request, 'voicetext/upload.html',{'data':data})
 
+'''
 def to_doc(text):
     doc=docx.Document()
     os.remove('voicetext/static/tmp.docx')
     doc.add_paragraph(text)
     doc.save('voicetext/static/tmp.docx')
     return doc
+
+'''
