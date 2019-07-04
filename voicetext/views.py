@@ -49,9 +49,9 @@ def upload(request):
             except sr.RequestError:
                 mic_text="Sorry, Service is not Avaiable right now!"
             #fs.save(file.name,file)
-            doc=to_doc(mic_text)
+            #doc=to_doc(mic_text)
             data = []
-            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name, 'doc':doc}
+            dataum = {'mic': mic_text,'name':name, 'size':we, 'file_name':file.name}
             data.append(dataum)
             return render(request, 'voicetext/upload.html', {'data': data} )
         else:
