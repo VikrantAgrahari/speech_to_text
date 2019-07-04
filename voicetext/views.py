@@ -10,7 +10,7 @@ import speech_recognition as sr
 #import numpy as np
 import sys
 #import wave
-import simpleaudio as sa
+#import simpleaudio as sa
 from reportlab.pdfgen import canvas
 #import docx
 import os
