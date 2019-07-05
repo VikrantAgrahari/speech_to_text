@@ -1,18 +1,29 @@
 {% extends 'voicetext/base.html' %}
 {% block content %}
     <main role="main" class="inner cover">
-            <h3 class="cover-heading ">Convert Audio into Text file</h3>
-            <p class="lead text-center">
-                "&nbsp;This site is developed using Python, Django and Speech Recognition Engine to detect Voice from Audio file and convert
-                it to Text.&nbsp;"<br><h5 class="text-info"> If you recorded someone's voice or lecturer notes and you want to convert it to Text for future convenience, you can easily done here.</h5>
-                <br><h4 class="fa-bold text-info">Currently supports only &nbsp;  .wav &nbsp;  audio format only.</h4>
-            </p><br><br>
+            <br>
+            <div class="card">
+                <div class="card card-header">
+                    <h3 class="card-head text-primary ">Convert Your Audio file into Text.</h3>
+                </div>
+                <div class="card-body">
+                    <p class="lead text-center">
+                "&nbsp;This site is built using Python, Django, Speech Recognition Engine and ML to detect talking speech from Audio file and convert
+                it to Text.&nbsp;"<br><h5 class="text-dark"> You have recorded voice or your lecutrer notes and you want it to convert it to text instead of listening it all again, the work can easily be done here.</h5>
+                    <br><h5 class="text-dark">Two steps to go :</h5><br>
+                    <h6 class="text-dark">Press "Choose File" to upload audio file (make sure it is in .wav format)</h6><br>
+                    <h6 class="text-dark">And click Upload File button to start the identifying process</h6>
+                <br><h4 class="fa-bold text-info">*Currently supports only &nbsp;  .wav &nbsp;  audio format only.*</h4>
+                </p><br><br>
+                </div>
+            </div>
+            <br><br>
 
             <form class="form-signin" method="POST" enctype="multipart/form-data" action="{% url 'voicetext:upload' %}">
                 {% csrf_token %}
                 <input type="file" name="audio">
                 <button class="shadow btn btn-primary" type="submit">Upload File</button>
             </form><br><br>
-            <h5 class="text-danger">This site is under testing and development. There could be unexpected result.</h5>
+            <h5 class="text-danger">This site is under testing and development. There could be some bugs in output.</h5>
     </main>
 {% endblock %}
