@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cafe8e5-f23e-40aa-a690-78e69781a5c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voicetext/templates/voicetext/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/voicetext/templates/voicetext/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="56" column="135" selection-start-line="56" selection-start-column="135" selection-end-line="56" selection-end-column="135" />
+            <state relative-caret-position="695">
+              <caret line="58" column="152" lean-forward="true" selection-start-line="58" selection-start-column="152" selection-end-line="58" selection-end-column="152" />
             </state>
           </provider>
         </entry>
@@ -164,12 +163,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562250836870</updated>
       <workItem from="1562250838308" duration="656000" />
-      <workItem from="1562288984197" duration="274000" />
+      <workItem from="1562288984197" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="930000" />
+    <option name="totallyTimeSpent" value="1217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -204,8 +203,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/voicetext/templates/voicetext/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="56" column="135" selection-start-line="56" selection-start-column="135" selection-end-line="56" selection-end-column="135" />
+        <state relative-caret-position="695">
+          <caret line="58" column="152" lean-forward="true" selection-start-line="58" selection-start-column="152" selection-end-line="58" selection-end-column="152" />
         </state>
       </provider>
     </entry>
